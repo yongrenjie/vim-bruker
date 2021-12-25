@@ -14,4 +14,4 @@ My colorscheme is the light version of [vim-one](https://github.com/rakr/vim-one
 
 ![Screenshot 1](https://user-images.githubusercontent.com/22414895/147394655-fafae1dc-da06-4b95-8717-03a108c49804.png)
 
-![Screenshot 2](https://user-images.githubusercontent.com/22414895/147394652-90392990-8ed8-45a7-b571-47c6d51580c4.png)
+![Screenshot 2](https://user-images.githubusercontent.com/22414895/147394692-3809ba3e-3bec-450f-ba12-da217ff7b817.png)
