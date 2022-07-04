@@ -25,7 +25,7 @@ syntax match brukDecouple "do:f\d"
 highlight default link brukDecouple Special
 
 " Operators
-syntax match brukOperator "\V+\|*\|-\|/\|="
+syntax match brukOperator "\V+\|*\|-\|/\|=\|<\|>\|<=\|>=\|==\|!="
 highlight default link brukOperator Operator
 
 " Durations and other constants
@@ -84,10 +84,12 @@ syntax match brukIncludedFile "\".\+\"" contained
 highlight default link brukIncluded Include
 highlight default link brukIncludedFile String
 
+syntax match brukDefine "#\s*define" nextgroup=brukIfdefIdentifier skipwhite
 syntax match brukIfdef "#\s*ifdef" nextgroup=brukIfdefIdentifier skipwhite
 syntax match brukIfdefIdentifier "[A-Za-z0-9_]\+" contained
 syntax match brukElse "#\s*else"
 syntax match brukEndif "#\s*endif"
+highlight default link brukDefine Structure
 highlight default link brukIfdef Structure
 highlight default link brukIfdefIdentifier Structure
 highlight default link brukElse Structure
